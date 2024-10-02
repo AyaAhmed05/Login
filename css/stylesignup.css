@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(36, 53, 63);
+}
+
+.group {
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-control {
+    background-color: rgb(255, 255, 255);
+    
+}
+h1, .btn1{
+    color: #17A2B8;
+}
+
+.btn1{
+   border-color: #17A2B8; 
+   
+}
+.btn1:hover{
+    color: white;
+    background-color: #17A2B8;
+}
+.form-control::placeholder { 
+    color: white;
+    opacity: 0.7; 
+}
